@@ -16,13 +16,26 @@ try:
 except ImportError:
     MongoClient = None
 
-# HEIC support
-try:
-    import pyheif
-    HEIF_AVAILABLE = True
-except ImportError:
-    pyheif = None
-    HEIF_AVAILABLE = False
+# File type detection
+def detect_heic_file(file_bytes, filename):
+    """Simple HEIC detection based on file signature and extension"""
+    # Check file extension
+    if filename and filename.lower().endswith(('.heic', '.heif')):
+        return True
+    
+    # Check HEIC file signature (first few bytes)
+    if len(file_bytes) >= 12:
+        # HEIC files typically start with specific byte patterns
+        heic_signatures = [
+            b'ftypheic',  # HEIC
+            b'ftypmif1',  # HEIF
+            b'ftypheix',  # HEIC variant
+        ]
+        for sig in heic_signatures:
+            if sig in file_bytes[:20]:
+                return True
+    
+    return False
 
 app = Flask(__name__)
 
@@ -55,7 +68,7 @@ if MongoClient and MONGO_URI:
         print('[MongoDB] Connection failed:', e)
 
 @app.route('/convert', methods=['POST'])
-def convert_heic():
+def convert_image():
     if 'file' not in request.files:
         print('No file uploaded')
         return jsonify({'error': 'No file uploaded'}), 400
@@ -66,23 +79,26 @@ def convert_heic():
         print(f"Invalid target format: {target_format}")
         return jsonify({'error': 'Invalid target format'}), 400
 
-    if not HEIF_AVAILABLE:
-        print('HEIC support not available (pyheif not installed)')
-        return jsonify({'error': 'HEIC support not available on server'}), 500
-
     try:
         file_bytes = file.read()
         print(f"File bytes length: {len(file_bytes)}")
 
-        # Use pyheif to read HEIC files
-        heif_file = pyheif.read_heif(file_bytes)
-        print(f"HEIF file mode: {heif_file.mode}, size: {heif_file.size}")
-        
-        # Convert to PIL Image
-        image = Image.frombytes(
-            heif_file.mode, heif_file.size, heif_file.data, "raw"
-        )
-        print(f"PIL Image created: mode={image.mode}, size={image.size}")
+        # Check if it's a HEIC/HEIF file
+        if detect_heic_file(file_bytes, file.filename):
+            print("HEIC file detected")
+            return jsonify({
+                'error': 'HEIC files require special libraries not available in this cloud deployment.',
+                'suggestion': 'Please convert HEIC to JPG/PNG first using your device\'s built-in converter.',
+                'supported_formats': ['JPG', 'JPEG', 'PNG', 'GIF', 'BMP', 'TIFF', 'WEBP']
+            }), 400
+
+        # Handle regular image formats (JPG, PNG, etc.)
+        try:
+            image = Image.open(io.BytesIO(file_bytes))
+            print(f"Image opened: mode={image.mode}, size={image.size}")
+        except Exception as e:
+            print(f"Failed to open image: {e}")
+            return jsonify({'error': 'Invalid image file or unsupported format'}), 400
         
         img_io = io.BytesIO()
         if target_format in ['jpg', 'jpeg']:
@@ -118,7 +134,8 @@ def healthz():
             mongo_error = str(e)
     status = {
         'status': 'ok',
-        'pyheif': HEIF_AVAILABLE,
+        'image_formats': ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff'],
+        'heic_support': False,  # Disabled for cloud deployment
         'mongo': mongo_ok,
         'mongo_error': mongo_error
     }
