@@ -4,5 +4,4 @@ Pillow==10.4.0
 pillow-heif==0.16.0
 pymongo==4.8.0
 python-dotenv==1.0.1
-pyheif==0.7.1
 gunicorn==21.2.0

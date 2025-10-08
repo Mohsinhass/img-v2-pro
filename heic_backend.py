@@ -1,8 +1,12 @@
 from flask import Flask, request, send_file, jsonify
 from PIL import Image
+from pillow_heif import register_heif_opener
 import io
 import os
 import datetime
+
+# Register HEIF opener with Pillow
+register_heif_opener()
 
 # Optional CORS for local dev
 try:
@@ -15,19 +19,6 @@ try:
     from pymongo import MongoClient
 except ImportError:
     MongoClient = None
-
-try:
-    import pyheif
-except ImportError:
-    pyheif = None
-
-# Prefer pillow-heif on Windows (easy install)
-try:
-    import pillow_heif
-    pillow_heif.register_heif_opener()
-    PILLOW_HEIF = True
-except Exception:
-    PILLOW_HEIF = False
 
 app = Flask(__name__)
 
@@ -70,25 +61,15 @@ def convert_heic():
     if target_format not in ['jpg', 'jpeg', 'png']:
         print(f"Invalid target format: {target_format}")
         return jsonify({'error': 'Invalid target format'}), 400
-    # Require at least one HEIC decoder (pillow-heif or pyheif)
-    if not (PILLOW_HEIF or pyheif):
-        print('No HEIC decoder available (install pillow-heif or pyheif)')
-        return jsonify({'error': 'HEIC support not available on server'}), 500
+
     try:
         file_bytes = file.read()
         print(f"File bytes length: {len(file_bytes)}")
 
-        # Use pillow-heif if available, else fallback to pyheif
-        if PILLOW_HEIF:
-            image = Image.open(io.BytesIO(file_bytes))
-            print(f"[pillow-heif] Image opened: mode={image.mode}, size={image.size}")
-        else:
-            heif_file = pyheif.read_heif(file_bytes)
-            print(f"[pyheif] HEIF file mode: {heif_file.mode}, size: {heif_file.size}")
-            image = Image.frombytes(
-                heif_file.mode, heif_file.size, heif_file.data, "raw"
-            )
-            print(f"Image created: mode={image.mode}, size={image.size}")
+        # Use pillow-heif to open HEIC files
+        image = Image.open(io.BytesIO(file_bytes))
+        print(f"Image opened: mode={image.mode}, size={image.size}")
+        
         img_io = io.BytesIO()
         if target_format in ['jpg', 'jpeg']:
             image = image.convert('RGB')
@@ -123,8 +104,7 @@ def healthz():
             mongo_error = str(e)
     status = {
         'status': 'ok',
-        'pyheif': bool(pyheif),
-        'pillow_heif': bool(PILLOW_HEIF),
+        'pillow_heif': True,  # We're using pillow-heif
         'mongo': mongo_ok,
         'mongo_error': mongo_error
     }
