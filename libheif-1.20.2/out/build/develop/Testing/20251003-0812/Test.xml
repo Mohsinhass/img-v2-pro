@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20251003-0812-Experimental"
+	Name="DESKTOP-LHS46E9"
+	Generator="ctest-3.31.6-msvc6"
+	CompilerName="D:/visual stdio intolar c++/New folder (2)/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.44.35217.0"
+	OSName="Windows"
+	Hostname="DESKTOP-LHS46E9"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="x86"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="0"
+	ModelName="AMD Ryzen 5 5600G with Radeon Graphics         "
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="15741"
+	TotalPhysicalMemory="7549"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3892"
+	>
+	<Testing>
+		<StartDateTime>Oct 03 19:47 Bangladesh Standard Time</StartDateTime>
+		<StartTestTime>1759499261</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 03 19:47 Bangladesh Standard Time</EndDateTime>
+		<EndTestTime>1759499261</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

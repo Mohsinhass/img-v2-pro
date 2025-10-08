@@ -1,0 +1,1972 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4e6e05cc4d1b38c0389e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "heifio",
+					"jsonFile" : "directory-heifio-Debug-786947f4ad7c064bd1c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "heifio",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Debug-ec60c36a30d706b236a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				},
+				{
+					"build" : "libheif",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libheif-Debug-0e23ef0a740cbb7fa4cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libheif",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "libheif/plugins",
+					"jsonFile" : "directory-libheif.plugins-Debug-dc983348f6a6ebd1d38e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "libheif/plugins"
+				},
+				{
+					"build" : "gdk-pixbuf",
+					"jsonFile" : "directory-gdk-pixbuf-Debug-1ffd69d651b101ffc5a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gdk-pixbuf"
+				},
+				{
+					"build" : "gnome",
+					"jsonFile" : "directory-gnome-Debug-64402ad891f874f4fe65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gnome"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "libheif",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-805fa09abc5396634039.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-Debug-78df51a97d96b2d94052.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-Debug-f7d7216356df2d6e96bc.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-Debug-a83e276af61b0f882014.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-5212c8ae9bf50f31a67e.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-ec328e29cffeb9a7b67f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "avc_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-avc_box-Debug-3ea394022f9ccd7db3e6.json",
+					"name" : "avc_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bitstream_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bitstream_tests-Debug-c51d47969c552e39e390.json",
+					"name" : "bitstream_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "box_equals::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-box_equals-Debug-1ea735bf157f1a722ea1.json",
+					"name" : "box_equals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "conversion::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-conversion-Debug-0653087a161682469734.json",
+					"name" : "conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-encode-Debug-0f893b4fe46d2c88e21d.json",
+					"name" : "encode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "extended_type::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-extended_type-Debug-f5fb7b4dbbe35259d116.json",
+					"name" : "extended_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "file_layout::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-file_layout-Debug-4c44417953230a56dbf9.json",
+					"name" : "file_layout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heif::@e667f6a3504a2a373d01",
+					"jsonFile" : "target-heif-Debug-f62b654f1010f8a250ba.json",
+					"name" : "heif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-dec::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-dec-Debug-f3fb5bc757445dbb9627.json",
+					"name" : "heif-dec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-enc::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-enc-Debug-5350b7cb81a67ba1152f.json",
+					"name" : "heif-enc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-info::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-info-Debug-d4241bdd1def3e872da1.json",
+					"name" : "heif-info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-test-Debug-2518b4dc4ce3c1677ac0.json",
+					"name" : "heif-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "heifio::@1476e9c25d3c7a4af2bc",
+					"jsonFile" : "target-heifio-Debug-dd71b54020ad5e2a527f.json",
+					"name" : "heifio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "idat::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-idat-Debug-fd5c2f35651b7f95e59b.json",
+					"name" : "idat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jpeg2000::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-jpeg2000-Debug-51cc21a54fce6b29bc81.json",
+					"name" : "jpeg2000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_box-Debug-dfa0c3a8c2fe0b2c9c02.json",
+					"name" : "mini_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_decode-Debug-c4c344e8a5b01a5b9506.json",
+					"name" : "mini_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "region::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-region-Debug-8984f963e2144828d497.json",
+					"name" : "region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tai::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tai-Debug-d5d0cb036a660f2122da.json",
+					"name" : "tai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "testframework::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-testframework-Debug-57a21d26b4bb6097578a.json",
+					"name" : "testframework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tiffdecode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tiffdecode-Debug-dbd7c58ab3b43adf3ec4.json",
+					"name" : "tiffdecode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_box-Debug-7e81b1143701dffe23a1.json",
+					"name" : "uncompressed_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode-Debug-9b6540f801bfd30fe324.json",
+					"name" : "uncompressed_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_mono::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_mono-Debug-0deb53852efcbb066827.json",
+					"name" : "uncompressed_decode_mono",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb-Debug-85560e9d96a5c33a1bfd.json",
+					"name" : "uncompressed_decode_rgb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb16::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb16-Debug-003b5ab135ccd5df9b4c.json",
+					"name" : "uncompressed_decode_rgb16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb565::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb565-Debug-0bc2f8a780b937a10cdc.json",
+					"name" : "uncompressed_decode_rgb565",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb7::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb7-Debug-1cdd1416153f11546a2d.json",
+					"name" : "uncompressed_decode_rgb7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr-Debug-7de7e3e6ad172abecb0b.json",
+					"name" : "uncompressed_decode_ycbcr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr420::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr420-Debug-0990a08cd990f5fdfd49.json",
+					"name" : "uncompressed_decode_ycbcr420",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr422::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr422-Debug-db77e436699b85ccc7b7.json",
+					"name" : "uncompressed_decode_ycbcr422",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_encode-Debug-f1ad19cfd698253abc0a.json",
+					"name" : "uncompressed_encode",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4e6e05cc4d1b38c0389e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "heifio",
+					"jsonFile" : "directory-heifio-Release-786947f4ad7c064bd1c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "heifio",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Release-112bedb9064c4ad918bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Release-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				},
+				{
+					"build" : "libheif",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libheif-Release-dfd1bf67bcadbc7659a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libheif",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "libheif/plugins",
+					"jsonFile" : "directory-libheif.plugins-Release-dc983348f6a6ebd1d38e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "libheif/plugins"
+				},
+				{
+					"build" : "gdk-pixbuf",
+					"jsonFile" : "directory-gdk-pixbuf-Release-1ffd69d651b101ffc5a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gdk-pixbuf"
+				},
+				{
+					"build" : "gnome",
+					"jsonFile" : "directory-gnome-Release-64402ad891f874f4fe65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gnome"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "libheif",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-805fa09abc5396634039.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-Release-78df51a97d96b2d94052.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-Release-f7d7216356df2d6e96bc.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-Release-a83e276af61b0f882014.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-5212c8ae9bf50f31a67e.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-ec328e29cffeb9a7b67f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "avc_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-avc_box-Release-4260b3257ec71f57eb18.json",
+					"name" : "avc_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bitstream_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bitstream_tests-Release-9ee3e120f6b25fd2f0ea.json",
+					"name" : "bitstream_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "box_equals::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-box_equals-Release-922e6a7b8d11e0e06555.json",
+					"name" : "box_equals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "conversion::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-conversion-Release-7d0dbf60bec83c5ad514.json",
+					"name" : "conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-encode-Release-1b1006f923bb66278d33.json",
+					"name" : "encode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "extended_type::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-extended_type-Release-2208548f3c3525bc1d8c.json",
+					"name" : "extended_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "file_layout::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-file_layout-Release-1d762a1b229e9917d26b.json",
+					"name" : "file_layout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heif::@e667f6a3504a2a373d01",
+					"jsonFile" : "target-heif-Release-6ffff3989b3cd7008c84.json",
+					"name" : "heif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-dec::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-dec-Release-b2dc154b5dd1e55ac0d6.json",
+					"name" : "heif-dec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-enc::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-enc-Release-22fbc7563b4360438a8a.json",
+					"name" : "heif-enc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-info::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-info-Release-b78702a963ec0a2ee8a2.json",
+					"name" : "heif-info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-test-Release-16d55b8200ea3dcbbbcb.json",
+					"name" : "heif-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "heifio::@1476e9c25d3c7a4af2bc",
+					"jsonFile" : "target-heifio-Release-938d7f1951ad640c98d2.json",
+					"name" : "heifio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "idat::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-idat-Release-13127ffc1a993d7e509e.json",
+					"name" : "idat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jpeg2000::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-jpeg2000-Release-631d661a161359cb0fae.json",
+					"name" : "jpeg2000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_box-Release-869c766fba3ed221f99d.json",
+					"name" : "mini_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_decode-Release-d3d634307ba494e3a7af.json",
+					"name" : "mini_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "region::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-region-Release-16f15d6a049bd4f793a3.json",
+					"name" : "region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tai::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tai-Release-7d21f015ad813e65177a.json",
+					"name" : "tai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "testframework::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-testframework-Release-b61be420ff8bb9b3f7f3.json",
+					"name" : "testframework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tiffdecode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tiffdecode-Release-37475cdbb41166d3a32f.json",
+					"name" : "tiffdecode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_box-Release-4719afd1cd0973b1d556.json",
+					"name" : "uncompressed_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode-Release-715cddfe686160b9f617.json",
+					"name" : "uncompressed_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_mono::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_mono-Release-dffcf45b33dcfda8e6e4.json",
+					"name" : "uncompressed_decode_mono",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb-Release-fc17720d68ecd3fa72f4.json",
+					"name" : "uncompressed_decode_rgb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb16::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb16-Release-333bf1345ccb01de3fe5.json",
+					"name" : "uncompressed_decode_rgb16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb565::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb565-Release-41b356136d09f10bc8bf.json",
+					"name" : "uncompressed_decode_rgb565",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb7::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb7-Release-f119ccab990b2f824848.json",
+					"name" : "uncompressed_decode_rgb7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr-Release-0de148827926fedbd8a5.json",
+					"name" : "uncompressed_decode_ycbcr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr420::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr420-Release-6dadaa745549320b512e.json",
+					"name" : "uncompressed_decode_ycbcr420",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr422::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr422-Release-01b96095435ab502a282.json",
+					"name" : "uncompressed_decode_ycbcr422",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_encode-Release-810b975abae4a78e7a7b.json",
+					"name" : "uncompressed_encode",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-4e6e05cc4d1b38c0389e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "heifio",
+					"jsonFile" : "directory-heifio-MinSizeRel-786947f4ad7c064bd1c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "heifio",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-MinSizeRel-818b1488ffedbf11a2c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-MinSizeRel-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				},
+				{
+					"build" : "libheif",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libheif-MinSizeRel-f0a28bd85d58cc2beeb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libheif",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "libheif/plugins",
+					"jsonFile" : "directory-libheif.plugins-MinSizeRel-dc983348f6a6ebd1d38e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "libheif/plugins"
+				},
+				{
+					"build" : "gdk-pixbuf",
+					"jsonFile" : "directory-gdk-pixbuf-MinSizeRel-1ffd69d651b101ffc5a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gdk-pixbuf"
+				},
+				{
+					"build" : "gnome",
+					"jsonFile" : "directory-gnome-MinSizeRel-64402ad891f874f4fe65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gnome"
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "libheif",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-805fa09abc5396634039.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-MinSizeRel-78df51a97d96b2d94052.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-MinSizeRel-f7d7216356df2d6e96bc.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-MinSizeRel-a83e276af61b0f882014.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-MinSizeRel-5212c8ae9bf50f31a67e.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-ec328e29cffeb9a7b67f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "avc_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-avc_box-MinSizeRel-ac19b6274c99f089a268.json",
+					"name" : "avc_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bitstream_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bitstream_tests-MinSizeRel-5fdaf23bba62e183f127.json",
+					"name" : "bitstream_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "box_equals::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-box_equals-MinSizeRel-d64931447a068bd3b58b.json",
+					"name" : "box_equals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "conversion::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-conversion-MinSizeRel-cb2157165aac367dfe75.json",
+					"name" : "conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-encode-MinSizeRel-6b304671b4d80b334fd2.json",
+					"name" : "encode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "extended_type::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-extended_type-MinSizeRel-af41e8e2233007df21e3.json",
+					"name" : "extended_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "file_layout::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-file_layout-MinSizeRel-465d53751e8cf2b14179.json",
+					"name" : "file_layout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heif::@e667f6a3504a2a373d01",
+					"jsonFile" : "target-heif-MinSizeRel-69c6c1352f26aa077d75.json",
+					"name" : "heif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-dec::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-dec-MinSizeRel-31eeac8deef1495b4461.json",
+					"name" : "heif-dec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-enc::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-enc-MinSizeRel-bdb1c4baddb04df27c7d.json",
+					"name" : "heif-enc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-info::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-info-MinSizeRel-e0295cb2795fe4624954.json",
+					"name" : "heif-info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-test-MinSizeRel-8792e4957a021fc6ad4d.json",
+					"name" : "heif-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "heifio::@1476e9c25d3c7a4af2bc",
+					"jsonFile" : "target-heifio-MinSizeRel-f47e8f6abce185b2e907.json",
+					"name" : "heifio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "idat::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-idat-MinSizeRel-02a19395d8a8ddad308d.json",
+					"name" : "idat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jpeg2000::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-jpeg2000-MinSizeRel-09438da05d5e50822c87.json",
+					"name" : "jpeg2000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_box-MinSizeRel-6a0aee13390fbf6e0323.json",
+					"name" : "mini_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_decode-MinSizeRel-5e6d63ea995372d53b1f.json",
+					"name" : "mini_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "region::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-region-MinSizeRel-f380e1a91f55f93d9ab7.json",
+					"name" : "region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tai::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tai-MinSizeRel-e3d5ccfffac02af043a9.json",
+					"name" : "tai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "testframework::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-testframework-MinSizeRel-ce9cc5e0188f4403dfe0.json",
+					"name" : "testframework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tiffdecode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tiffdecode-MinSizeRel-6479dfd9e62b9e38a38c.json",
+					"name" : "tiffdecode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_box-MinSizeRel-66db26400c4df59878e0.json",
+					"name" : "uncompressed_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode-MinSizeRel-dddbafbed53e97313bfa.json",
+					"name" : "uncompressed_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_mono::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_mono-MinSizeRel-9a41bb84d70836c719bd.json",
+					"name" : "uncompressed_decode_mono",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb-MinSizeRel-c5427287f83b2e7071c4.json",
+					"name" : "uncompressed_decode_rgb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb16::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb16-MinSizeRel-92ef97c27a61b60fd494.json",
+					"name" : "uncompressed_decode_rgb16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb565::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb565-MinSizeRel-e46814e4b675738466e7.json",
+					"name" : "uncompressed_decode_rgb565",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb7::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb7-MinSizeRel-4fdca16fe5c07d57c4e4.json",
+					"name" : "uncompressed_decode_rgb7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr-MinSizeRel-fa14f1759d741da876d5.json",
+					"name" : "uncompressed_decode_ycbcr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr420::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr420-MinSizeRel-3b5559e1f025fd754b73.json",
+					"name" : "uncompressed_decode_ycbcr420",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr422::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr422-MinSizeRel-1977885ce3cc27205c44.json",
+					"name" : "uncompressed_decode_ycbcr422",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_encode-MinSizeRel-931d6fd7c507f66ead81.json",
+					"name" : "uncompressed_encode",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-4e6e05cc4d1b38c0389e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "heifio",
+					"jsonFile" : "directory-heifio-RelWithDebInfo-786947f4ad7c064bd1c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "heifio",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-RelWithDebInfo-42f569b16eac1015ff82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-RelWithDebInfo-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				},
+				{
+					"build" : "libheif",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libheif-RelWithDebInfo-e975098889fe7854055e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libheif",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "libheif/plugins",
+					"jsonFile" : "directory-libheif.plugins-RelWithDebInfo-dc983348f6a6ebd1d38e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "libheif/plugins"
+				},
+				{
+					"build" : "gdk-pixbuf",
+					"jsonFile" : "directory-gdk-pixbuf-RelWithDebInfo-1ffd69d651b101ffc5a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gdk-pixbuf"
+				},
+				{
+					"build" : "gnome",
+					"jsonFile" : "directory-gnome-RelWithDebInfo-64402ad891f874f4fe65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gnome"
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "libheif",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-805fa09abc5396634039.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-RelWithDebInfo-78df51a97d96b2d94052.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-RelWithDebInfo-f7d7216356df2d6e96bc.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-RelWithDebInfo-a83e276af61b0f882014.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-RelWithDebInfo-5212c8ae9bf50f31a67e.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-ec328e29cffeb9a7b67f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "avc_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-avc_box-RelWithDebInfo-6ca31fe7fc8a2f7fdc21.json",
+					"name" : "avc_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bitstream_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bitstream_tests-RelWithDebInfo-52085e64a7654a959568.json",
+					"name" : "bitstream_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "box_equals::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-box_equals-RelWithDebInfo-3a35b1ab13cc478f22ef.json",
+					"name" : "box_equals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "conversion::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-conversion-RelWithDebInfo-f921392db1c8d1b39244.json",
+					"name" : "conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-encode-RelWithDebInfo-7c266b1d4f2c125a8f1d.json",
+					"name" : "encode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "extended_type::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-extended_type-RelWithDebInfo-efd066e46f91405a520e.json",
+					"name" : "extended_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "file_layout::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-file_layout-RelWithDebInfo-54b3e4a2b02c57260a46.json",
+					"name" : "file_layout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heif::@e667f6a3504a2a373d01",
+					"jsonFile" : "target-heif-RelWithDebInfo-3ac2cc37878f882ed1d3.json",
+					"name" : "heif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-dec::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-dec-RelWithDebInfo-2fe540ca2a4e95828e40.json",
+					"name" : "heif-dec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-enc::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-enc-RelWithDebInfo-e58b0d46a143c178f7b8.json",
+					"name" : "heif-enc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-info::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-info-RelWithDebInfo-69494667a263d0534ed2.json",
+					"name" : "heif-info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "heif-test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-heif-test-RelWithDebInfo-86a762e1dc0d988a50c2.json",
+					"name" : "heif-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "heifio::@1476e9c25d3c7a4af2bc",
+					"jsonFile" : "target-heifio-RelWithDebInfo-618e9899777fd6c0087d.json",
+					"name" : "heifio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "idat::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-idat-RelWithDebInfo-d9f9ddecaa821dfa58da.json",
+					"name" : "idat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jpeg2000::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-jpeg2000-RelWithDebInfo-990d95c08aa88696e6d0.json",
+					"name" : "jpeg2000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_box-RelWithDebInfo-79fca1f68fd2ae493c42.json",
+					"name" : "mini_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mini_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mini_decode-RelWithDebInfo-67b477325b434e94c46b.json",
+					"name" : "mini_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "region::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-region-RelWithDebInfo-7e34523ad646b3d44d09.json",
+					"name" : "region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tai::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tai-RelWithDebInfo-b391e86d228b11786702.json",
+					"name" : "tai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "testframework::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-testframework-RelWithDebInfo-78633cf24581a075f0ad.json",
+					"name" : "testframework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tiffdecode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tiffdecode-RelWithDebInfo-1b804fb8284106a3bce7.json",
+					"name" : "tiffdecode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_box::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_box-RelWithDebInfo-27c09ce66eaf62ea06d4.json",
+					"name" : "uncompressed_box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode-RelWithDebInfo-302f32141fafd5046f6b.json",
+					"name" : "uncompressed_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_mono::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_mono-RelWithDebInfo-c3a0158048ffae7b4c76.json",
+					"name" : "uncompressed_decode_mono",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb-RelWithDebInfo-905bbb77e20997d3c660.json",
+					"name" : "uncompressed_decode_rgb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb16::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb16-RelWithDebInfo-511d28d6ee484c059c59.json",
+					"name" : "uncompressed_decode_rgb16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb565::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb565-RelWithDebInfo-764f8f01e03e2c79fa80.json",
+					"name" : "uncompressed_decode_rgb565",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_rgb7::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_rgb7-RelWithDebInfo-c569bc2bd3e462c98e03.json",
+					"name" : "uncompressed_decode_rgb7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr-RelWithDebInfo-72d437d1e77d71b19d4e.json",
+					"name" : "uncompressed_decode_ycbcr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr420::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr420-RelWithDebInfo-c7a7f116fbf828b773d9.json",
+					"name" : "uncompressed_decode_ycbcr420",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_decode_ycbcr422::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_decode_ycbcr422-RelWithDebInfo-5757cd3144e4a287c8fc.json",
+					"name" : "uncompressed_decode_ycbcr422",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uncompressed_encode::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-uncompressed_encode-RelWithDebInfo-f8953be3a5cc4692f990.json",
+					"name" : "uncompressed_encode",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop",
+		"source" : "C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

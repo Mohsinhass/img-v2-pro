@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/libheif/CMakeLists.txt
+C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/libheif/api/libheif/heif_version.h.in
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/BasicConfigVersion-ExactVersion.cmake.in
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake

@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C6F8246-900A-3956-BC23-199B856DB517}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>tiffdecode</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tiffdecode.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tiffdecode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tiffdecode.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tiffdecode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tiffdecode.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tiffdecode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tiffdecode.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tiffdecode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\heifio\Debug\heifio.lib;Debug\testframework.lib;..\libheif\Debug\heif.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/Debug/tiffdecode.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/Debug/tiffdecode.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\heifio\Release\heifio.lib;Release\testframework.lib;..\libheif\Release\heif.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/Release/tiffdecode.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/Release/tiffdecode.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\heifio\MinSizeRel\heifio.lib;MinSizeRel\testframework.lib;..\libheif\MinSizeRel\heif.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/MinSizeRel/tiffdecode.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/MinSizeRel/tiffdecode.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_BIG_ENDIAN=0;HAVE_KVAZAAR_ENABLE_LOGGING=0;HAVE_UVG266_ENABLE_LOGGING=0;HEIF_ENABLE_EXPERIMENTAL_FEATURES;LIBHEIF_EXPORTS;HAVE_VISIBILITY;WITH_UNCOMPRESSED_CODEC=1;ENABLE_EXPERIMENTAL_MINI_FORMAT=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\libheif\api;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include\libheif;C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\heifio\RelWithDebInfo\heifio.lib;RelWithDebInfo\testframework.lib;..\libheif\RelWithDebInfo\heif.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/RelWithDebInfo/tiffdecode.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/RelWithDebInfo/tiffdecode.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\visual stdio intolar c++\New folder (2)\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2 -BC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop --check-stamp-file C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\tests\test-config.cc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\visual stdio intolar c++\New folder (2)\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2 -BC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop --check-stamp-file C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\tests\test-config.cc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\visual stdio intolar c++\New folder (2)\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2 -BC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop --check-stamp-file C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\tests\test-config.cc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\visual stdio intolar c++\New folder (2)\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2 -BC:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop --check-stamp-file C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\tests\test-config.cc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\tests\main.cc" />
+    <ClCompile Include="C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\tests\tiffdecode.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\ZERO_CHECK.vcxproj">
+      <Project>{1DD4D2C6-CCB7-38AC-A7DD-88515B43A55E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\libheif\heif.vcxproj">
+      <Project>{0FA33403-0B75-37AE-81CD-18B668C17DC9}</Project>
+      <Name>heif</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\heifio\heifio.vcxproj">
+      <Project>{F8C69B94-BEE3-3F72-BAD5-521DF9F28D45}</Project>
+      <Name>heifio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ntc\Desktop\imageconvert_pro\libheif-1.20.2\out\build\develop\tests\testframework.vcxproj">
+      <Project>{BE16022A-3F8C-3561-945F-9F3331E6F82B}</Project>
+      <Name>testframework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

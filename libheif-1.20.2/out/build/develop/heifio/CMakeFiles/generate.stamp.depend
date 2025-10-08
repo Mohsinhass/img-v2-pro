@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/heifio/CMakeLists.txt
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindJPEG.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPNG.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindTIFF.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindZLIB.cmake
+D:/visual stdio intolar c++/New folder (2)/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake

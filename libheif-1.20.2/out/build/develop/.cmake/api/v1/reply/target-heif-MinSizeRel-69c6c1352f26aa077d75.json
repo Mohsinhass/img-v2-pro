@@ -1,0 +1,1730 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libheif/MinSizeRel/heif.dll"
+		},
+		{
+			"path" : "libheif/MinSizeRel/heif.lib"
+		},
+		{
+			"path" : "libheif/MinSizeRel/heif.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_compile_definitions",
+			"add_definitions",
+			"add_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"libheif/CMakeLists.txt",
+			"CMakeLists.txt",
+			"libheif/plugins/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 305,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 143,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 155,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 235,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 127,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 306,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++20 -MD"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ENABLE_EXPERIMENTAL_MINI_FORMAT=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "ENABLE_MULTITHREADING_SUPPORT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ENABLE_PARALLEL_TILE_DECODING=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "HAVE_KVAZAAR_ENABLE_LOGGING=0"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_UVG266_ENABLE_LOGGING=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_VISIBILITY"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HEIF_ENABLE_EXPERIMENTAL_FEATURES"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "IS_BIG_ENDIAN=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "LIBHEIF_EXPORTS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WITH_UNCOMPRESSED_CODEC=1"
+				},
+				{
+					"define" : "heif_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/out/build/develop"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/libheif"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/libheif/api"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/include/libheif"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/ntc/Desktop/imageconvert_pro/libheif-1.20.2/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				11,
+				12,
+				14,
+				15,
+				18,
+				20,
+				23,
+				25,
+				26,
+				27,
+				29,
+				31,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				56,
+				58,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				136,
+				138,
+				140,
+				142,
+				144,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				198,
+				200,
+				202
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "heif::@e667f6a3504a2a373d01",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/libheif"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "heif",
+	"nameOnDisk" : "heif.dll",
+	"paths" : 
+	{
+		"build" : "libheif",
+		"source" : "libheif"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				11,
+				12,
+				14,
+				15,
+				18,
+				20,
+				23,
+				25,
+				26,
+				27,
+				29,
+				31,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				56,
+				58,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				136,
+				138,
+				140,
+				142,
+				144,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				198,
+				200,
+				202
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				10,
+				13,
+				16,
+				17,
+				19,
+				21,
+				22,
+				24,
+				28,
+				30,
+				32,
+				33,
+				55,
+				57,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				191,
+				193,
+				195,
+				197,
+				199,
+				201
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/bitstream.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/bitstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/box.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/box.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/error.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/error.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/context.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/context.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/file.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/file.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/file_layout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/file_layout.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/pixelimage.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/pixelimage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/plugin_registry.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/nclx.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/nclx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/plugin_registry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/security_limits.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/security_limits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/init.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/init.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/logging.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/logging.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/compression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/compression_brotli.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/compression_zlib.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/common_utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/common_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/region.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/region.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/brands.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/brands.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api_structs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_library.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_image.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_color.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_regions.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_plugin.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_properties.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_items.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_sequences.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_tai_timestamps.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_brands.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_metadata.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_aux_images.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_entity_groups.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_security.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_encoding.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_decoding.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_image_handle.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_context.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_tiling.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_uncompressed.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/decoder.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/encoder.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/hevc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/hevc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/hevc_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/hevc_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/hevc_dec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/hevc_dec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/hevc_enc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/hevc_enc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/avif.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/avif.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/avif_enc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/avif_enc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/avif_dec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/avif_dec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/avif_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/avif_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/jpeg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/jpeg.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/jpeg_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/jpeg_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/jpeg_dec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/jpeg_dec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/jpeg_enc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/jpeg_enc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/jpeg2000.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/jpeg2000.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/jpeg2000_dec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/jpeg2000_dec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/jpeg2000_enc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/jpeg2000_enc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/jpeg2000_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/jpeg2000_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/vvc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/vvc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/vvc_dec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/vvc_dec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/vvc_enc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/vvc_enc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/vvc_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/vvc_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/avc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/avc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/avc_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/avc_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/codecs/avc_dec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/avc_dec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/mask_image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/mask_image.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/image_item.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/image_item.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/grid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/grid.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/overlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/overlay.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/iden.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/iden.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/image-items/tiled.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/tiled.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/colorconversion.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/colorconversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/rgb2yuv.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/rgb2yuv.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/rgb2yuv_sharp.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/rgb2yuv_sharp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/yuv2rgb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/yuv2rgb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/rgb2rgb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/rgb2rgb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/monochrome.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/monochrome.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/hdr_sdr.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/hdr_sdr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/alpha.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/alpha.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/color-conversion/chroma_sampling.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/color-conversion/chroma_sampling.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/sequences/seq_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/sequences/seq_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/sequences/chunk.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/sequences/chunk.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/sequences/track.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/sequences/track.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/sequences/track_visual.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/sequences/track_visual.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/sequences/track_metadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/sequences/track_metadata.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_color.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_error.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_plugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_properties.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_regions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_items.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_sequences.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_tai_timestamps.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_brands.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_metadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_aux_images.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_entity_groups.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_security.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_encoding.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_decoding.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_image_handle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_context.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_tiling.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_uncompressed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libheif/api/libheif/heif_cxx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/develop/libheif/heif_version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 15,
+			"path" : "libheif/api/libheif/heif_experimental.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/api/libheif/heif_experimental.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"path" : "libheif/plugins/encoder_mask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/plugins/encoder_mask.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"path" : "libheif/plugins/nalu_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/plugins/nalu_utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 18,
+			"path" : "libheif/plugins/encoder_uncompressed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 18,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/plugins/encoder_uncompressed.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 18,
+			"path" : "libheif/plugins/decoder_uncompressed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 18,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/plugins/decoder_uncompressed.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/unc_boxes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/unc_boxes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/image-items/unc_image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/image-items/unc_image.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/unc_codec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/unc_codec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/unc_dec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/unc_dec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/unc_enc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/unc_enc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/decoder_abstract.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/decoder_abstract.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/decoder_component_interleave.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/decoder_component_interleave.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/decoder_pixel_interleave.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/decoder_pixel_interleave.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/decoder_mixed_interleave.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/decoder_mixed_interleave.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/decoder_row_interleave.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/decoder_row_interleave.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "libheif/codecs/uncompressed/decoder_tile_component_interleave.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/codecs/uncompressed/decoder_tile_component_interleave.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "libheif/mini.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"path" : "libheif/mini.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

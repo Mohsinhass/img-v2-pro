@@ -1,0 +1,129 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "heif-dec::@714eac15f71a94114fdf"
+		},
+		{
+			"id" : "heif-enc::@714eac15f71a94114fdf"
+		},
+		{
+			"id" : "heif-test::@714eac15f71a94114fdf"
+		},
+		{
+			"id" : "heif-info::@714eac15f71a94114fdf"
+		},
+		{
+			"id" : "heifio::@1476e9c25d3c7a4af2bc"
+		},
+		{
+			"id" : "testframework::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "jpeg2000::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "box_equals::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "conversion::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "idat::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "avc_box::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "bitstream_tests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_rgb16::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_rgb565::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_mono::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_ycbcr422::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "tiffdecode::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_rgb7::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_ycbcr::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "extended_type::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "mini_box::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "mini_decode::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_ycbcr420::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "encode::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_encode::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "file_layout::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_box::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "tai::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "region::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "uncompressed_decode_rgb::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "heif::@e667f6a3504a2a373d01"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
