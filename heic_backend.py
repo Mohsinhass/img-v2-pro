@@ -1,12 +1,8 @@
 from flask import Flask, request, send_file, jsonify
 from PIL import Image
-from pillow_heif import register_heif_opener
 import io
 import os
 import datetime
-
-# Register HEIF opener with Pillow
-register_heif_opener()
 
 # Optional CORS for local dev
 try:
@@ -19,6 +15,14 @@ try:
     from pymongo import MongoClient
 except ImportError:
     MongoClient = None
+
+# HEIC support
+try:
+    import pyheif
+    HEIF_AVAILABLE = True
+except ImportError:
+    pyheif = None
+    HEIF_AVAILABLE = False
 
 app = Flask(__name__)
 
@@ -62,13 +66,23 @@ def convert_heic():
         print(f"Invalid target format: {target_format}")
         return jsonify({'error': 'Invalid target format'}), 400
 
+    if not HEIF_AVAILABLE:
+        print('HEIC support not available (pyheif not installed)')
+        return jsonify({'error': 'HEIC support not available on server'}), 500
+
     try:
         file_bytes = file.read()
         print(f"File bytes length: {len(file_bytes)}")
 
-        # Use pillow-heif to open HEIC files
-        image = Image.open(io.BytesIO(file_bytes))
-        print(f"Image opened: mode={image.mode}, size={image.size}")
+        # Use pyheif to read HEIC files
+        heif_file = pyheif.read_heif(file_bytes)
+        print(f"HEIF file mode: {heif_file.mode}, size: {heif_file.size}")
+        
+        # Convert to PIL Image
+        image = Image.frombytes(
+            heif_file.mode, heif_file.size, heif_file.data, "raw"
+        )
+        print(f"PIL Image created: mode={image.mode}, size={image.size}")
         
         img_io = io.BytesIO()
         if target_format in ['jpg', 'jpeg']:
@@ -104,7 +118,7 @@ def healthz():
             mongo_error = str(e)
     status = {
         'status': 'ok',
-        'pillow_heif': True,  # We're using pillow-heif
+        'pyheif': HEIF_AVAILABLE,
         'mongo': mongo_ok,
         'mongo_error': mongo_error
     }
