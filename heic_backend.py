@@ -67,6 +67,21 @@ if MongoClient and MONGO_URI:
     except Exception as e:
         print('[MongoDB] Connection failed:', e)
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({
+        'name': 'Img V2 Pro API',
+        'status': 'running',
+        'version': '1.0.0',
+        'endpoints': {
+            'health': '/healthz',
+            'convert': '/convert (POST)',
+            'log': '/log-conversion (POST)',
+            'history': '/history (GET)'
+        },
+        'supported_formats': ['JPG', 'JPEG', 'PNG', 'GIF', 'BMP', 'TIFF', 'WEBP']
+    })
+
 @app.route('/convert', methods=['POST'])
 def convert_image():
     if 'file' not in request.files:
@@ -185,5 +200,6 @@ def history():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5001))
+    port = int(os.environ.get('PORT', 5000))
+    print(f"Starting Flask app on port {port}")
     app.run(host='0.0.0.0', port=port, debug=False)
